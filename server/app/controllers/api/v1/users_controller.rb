@@ -1,5 +1,5 @@
-module V1
-	module Api
+module Api
+	module V1
 		class UsersController < ApplicationController
 			def index
 						# probably better to paginate this but do it later
@@ -10,13 +10,16 @@ module V1
 				@user = User.new(name: params[:name],
 					email: params[:email],
 					password: params[:password])
-
-				@user.owner = false
 				if @user.save
-					render json: { user: @user, "auth_key": @user.auth_key }, status: 201
+					render json: { user: @user }, status: 201
 				else
 					render json: ":(", status: 422
 				end
+			end
+			def update
+				@user = User.find(params[:id])
+				@user.update_attributes(family_id: params[:family_id])
+				render json: @user
 			end
 			def show
 				@user = User.find(params[:id])

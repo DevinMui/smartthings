@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users
       resources :families
+      resources :sessions
       resources :showers do
         member do
           get 'time_stamp_start'
