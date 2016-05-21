@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  belongs_to :family
 	has_many :showers
 	before_create :set_auth_key
 	has_secure_password

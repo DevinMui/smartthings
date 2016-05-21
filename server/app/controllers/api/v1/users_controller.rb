@@ -13,7 +13,6 @@ module V1
 
 				@user.owner = false
 				if @user.save
-
 					render json: { user: @user, "auth_key": @user.auth_key }, status: 201
 				else
 					render json: ":(", status: 422
