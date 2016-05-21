@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  time_start: 2016-05-21 11:19:38
+  time_stop: 2016-05-21 11:19:38
+  time_total: 1.5
+
+two:
+  user_id: 
+  time_start: 2016-05-21 11:19:38
+  time_stop: 2016-05-21 11:19:38
+  time_total: 1.5
