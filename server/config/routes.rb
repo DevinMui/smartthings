@@ -4,12 +4,9 @@ Rails.application.routes.draw do
       resources :users
       resources :families
       resources :sessions
-      resources :showers do
-        member do
-          get 'time_stamp_start'
-          get 'time_stamp_stop'
-        end
-      end
+      resources :showers
+      get 'time_stamp_start' => 'showers#time_stamp_start'
+      get 'time_stamp_end' => 'showers#time_stamp_end'
     end
   end
 end

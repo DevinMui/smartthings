@@ -10,7 +10,7 @@ module Api
 			def time_stamp_end
 				@shower = Shower.find(params[:id])
 				@shower.update_attributes(time_stop: Time.now)
-				@total_time = (@shower.time_stop - @shower.time_start) / 60 # returns time difference in minutes
+				@total_time = (@shower.time_stop - @shower.time_start) # returns time difference in seconds
 				@shower.update_attributes(time_total: @total_time)
 				render json: @shower, status: 200
 			end

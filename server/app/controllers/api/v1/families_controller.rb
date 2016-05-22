@@ -3,7 +3,7 @@ module Api
 		class FamiliesController < ApplicationController
 			def index
 				@families = Family.all
-				render json: @family, status: 200
+				render json: @families, status: 200
 			end
 			def create
 				@family = Family.create(name: params[:name], address: params[:address])
