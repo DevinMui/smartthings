@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025DDF4B1CF11EFF00580D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025DDF491CF11EFF00580D67 /* Main.storyboard */; };
+		025DDF4D1CF13B4500580D67 /* familyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DDF4C1CF13B4500580D67 /* familyVC.swift */; };
+		025DDF4F1CF1495E00580D67 /* usageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DDF4E1CF1495E00580D67 /* usageVC.swift */; };
+		0274A9CD1C8FD9E7005AEBBD /* ownerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274A9CC1C8FD9E7005AEBBD /* ownerVC.swift */; };
+		028938E41C62A8B400529E9A /* orderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028938E31C62A8B400529E9A /* orderViewController.swift */; };
+		0295B12B1C7F7A6000B31AF3 /* stripeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295B12A1C7F7A6000B31AF3 /* stripeViewController.swift */; };
+		02EB7D891C46206C00AD8522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB7D881C46206C00AD8522 /* AppDelegate.swift */; };
+		02EB7D8B1C46206C00AD8522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB7D8A1C46206C00AD8522 /* ViewController.swift */; };
+		02EB7D901C46206C00AD8522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EB7D8F1C46206C00AD8522 /* Assets.xcassets */; };
+		02EB7D931C46206C00AD8522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EB7D911C46206C00AD8522 /* LaunchScreen.storyboard */; };
+		02EB7D9E1C46206C00AD8522 /* bobafetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB7D9D1C46206C00AD8522 /* bobafetchTests.swift */; };
+		02EB7DA91C46206D00AD8522 /* bobafetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB7DA81C46206D00AD8522 /* bobafetchUITests.swift */; };
+		02EB7DB71C4735A800AD8522 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB7DB61C4735A800AD8522 /* LoginViewController.swift */; };
+		02EB7DB91C47373A00AD8522 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB7DB81C47373A00AD8522 /* signUpViewController.swift */; };
+		EB0C665FA31DD7638669C0CB /* Pods_bobafetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC78433FC1FE90CEA692A9D /* Pods_bobafetch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02EB7D9A1C46206C00AD8522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02EB7D7D1C46206C00AD8522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02EB7D841C46206C00AD8522;
+			remoteInfo = bobafetch;
+		};
+		02EB7DA51C46206C00AD8522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02EB7D7D1C46206C00AD8522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02EB7D841C46206C00AD8522;
+			remoteInfo = bobafetch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025DDF4A1CF11EFF00580D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025DDF4C1CF13B4500580D67 /* familyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = familyVC.swift; sourceTree = "<group>"; };
+		025DDF4E1CF1495E00580D67 /* usageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usageVC.swift; sourceTree = "<group>"; };
+		0274A9CC1C8FD9E7005AEBBD /* ownerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ownerVC.swift; sourceTree = "<group>"; };
+		028938E31C62A8B400529E9A /* orderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderViewController.swift; sourceTree = "<group>"; };
+		0295B12A1C7F7A6000B31AF3 /* stripeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stripeViewController.swift; sourceTree = "<group>"; };
+		02EB7D851C46206C00AD8522 /* bobafetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bobafetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02EB7D881C46206C00AD8522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02EB7D8A1C46206C00AD8522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02EB7D8F1C46206C00AD8522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02EB7D921C46206C00AD8522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02EB7D941C46206C00AD8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EB7D991C46206C00AD8522 /* bobafetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bobafetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02EB7D9D1C46206C00AD8522 /* bobafetchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bobafetchTests.swift; sourceTree = "<group>"; };
+		02EB7D9F1C46206C00AD8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EB7DA41C46206C00AD8522 /* bobafetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bobafetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02EB7DA81C46206D00AD8522 /* bobafetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bobafetchUITests.swift; sourceTree = "<group>"; };
+		02EB7DAA1C46206D00AD8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EB7DB61C4735A800AD8522 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		02EB7DB81C47373A00AD8522 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		04583DFAEF3EC6BDB6D01DD3 /* Pods-bobafetch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bobafetch.release.xcconfig"; path = "Pods/Target Support Files/Pods-bobafetch/Pods-bobafetch.release.xcconfig"; sourceTree = "<group>"; };
+		5BC78433FC1FE90CEA692A9D /* Pods_bobafetch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bobafetch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90201A52DEF2F8FA0A19E20C /* Pods-bobafetch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bobafetch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bobafetch/Pods-bobafetch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02EB7D821C46206C00AD8522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0C665FA31DD7638669C0CB /* Pods_bobafetch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EB7D961C46206C00AD8522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EB7DA11C46206C00AD8522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02EB7D7C1C46206C00AD8522 = {
+			isa = PBXGroup;
+			children = (
+				02EB7D871C46206C00AD8522 /* bobafetch */,
+				02EB7D9C1C46206C00AD8522 /* bobafetchTests */,
+				02EB7DA71C46206D00AD8522 /* bobafetchUITests */,
+				02EB7D861C46206C00AD8522 /* Products */,
+				3A1BB176C4738F318EE95471 /* Pods */,
+				9B39BD8368D364BE3E8420B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02EB7D861C46206C00AD8522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02EB7D851C46206C00AD8522 /* bobafetch.app */,
+				02EB7D991C46206C00AD8522 /* bobafetchTests.xctest */,
+				02EB7DA41C46206C00AD8522 /* bobafetchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02EB7D871C46206C00AD8522 /* bobafetch */ = {
+			isa = PBXGroup;
+			children = (
+				02EB7D881C46206C00AD8522 /* AppDelegate.swift */,
+				02EB7D8A1C46206C00AD8522 /* ViewController.swift */,
+				02EB7DB61C4735A800AD8522 /* LoginViewController.swift */,
+				02EB7DB81C47373A00AD8522 /* signUpViewController.swift */,
+				028938E31C62A8B400529E9A /* orderViewController.swift */,
+				0295B12A1C7F7A6000B31AF3 /* stripeViewController.swift */,
+				025DDF4C1CF13B4500580D67 /* familyVC.swift */,
+				0274A9CC1C8FD9E7005AEBBD /* ownerVC.swift */,
+				025DDF4E1CF1495E00580D67 /* usageVC.swift */,
+				025DDF491CF11EFF00580D67 /* Main.storyboard */,
+				02EB7D8F1C46206C00AD8522 /* Assets.xcassets */,
+				02EB7D911C46206C00AD8522 /* LaunchScreen.storyboard */,
+				02EB7D941C46206C00AD8522 /* Info.plist */,
+			);
+			path = bobafetch;
+			sourceTree = "<group>";
+		};
+		02EB7D9C1C46206C00AD8522 /* bobafetchTests */ = {
+			isa = PBXGroup;
+			children = (
+				02EB7D9D1C46206C00AD8522 /* bobafetchTests.swift */,
+				02EB7D9F1C46206C00AD8522 /* Info.plist */,
+			);
+			path = bobafetchTests;
+			sourceTree = "<group>";
+		};
+		02EB7DA71C46206D00AD8522 /* bobafetchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02EB7DA81C46206D00AD8522 /* bobafetchUITests.swift */,
+				02EB7DAA1C46206D00AD8522 /* Info.plist */,
+			);
+			path = bobafetchUITests;
+			sourceTree = "<group>";
+		};
+		3A1BB176C4738F318EE95471 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90201A52DEF2F8FA0A19E20C /* Pods-bobafetch.debug.xcconfig */,
+				04583DFAEF3EC6BDB6D01DD3 /* Pods-bobafetch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B39BD8368D364BE3E8420B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC78433FC1FE90CEA692A9D /* Pods_bobafetch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02EB7D841C46206C00AD8522 /* bobafetch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EB7DAD1C46206D00AD8522 /* Build configuration list for PBXNativeTarget "bobafetch" */;
+			buildPhases = (
+				D199533A77AF7775D1D6FEF3 /* Check Pods Manifest.lock */,
+				02EB7D811C46206C00AD8522 /* Sources */,
+				02EB7D821C46206C00AD8522 /* Frameworks */,
+				02EB7D831C46206C00AD8522 /* Resources */,
+				CDE103507BB7988458098168 /* Embed Pods Frameworks */,
+				7E97CC8CDDDA6D6A00BBFE3B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bobafetch;
+			productName = bobafetch;
+			productReference = 02EB7D851C46206C00AD8522 /* bobafetch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02EB7D981C46206C00AD8522 /* bobafetchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EB7DB01C46206D00AD8522 /* Build configuration list for PBXNativeTarget "bobafetchTests" */;
+			buildPhases = (
+				02EB7D951C46206C00AD8522 /* Sources */,
+				02EB7D961C46206C00AD8522 /* Frameworks */,
+				02EB7D971C46206C00AD8522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02EB7D9B1C46206C00AD8522 /* PBXTargetDependency */,
+			);
+			name = bobafetchTests;
+			productName = bobafetchTests;
+			productReference = 02EB7D991C46206C00AD8522 /* bobafetchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02EB7DA31C46206C00AD8522 /* bobafetchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EB7DB31C46206D00AD8522 /* Build configuration list for PBXNativeTarget "bobafetchUITests" */;
+			buildPhases = (
+				02EB7DA01C46206C00AD8522 /* Sources */,
+				02EB7DA11C46206C00AD8522 /* Frameworks */,
+				02EB7DA21C46206C00AD8522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02EB7DA61C46206C00AD8522 /* PBXTargetDependency */,
+			);
+			name = bobafetchUITests;
+			productName = bobafetchUITests;
+			productReference = 02EB7DA41C46206C00AD8522 /* bobafetchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02EB7D7D1C46206C00AD8522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jesse Liang";
+				TargetAttributes = {
+					02EB7D841C46206C00AD8522 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H598HBDDJ8;
+					};
+					02EB7D981C46206C00AD8522 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H598HBDDJ8;
+						TestTargetID = 02EB7D841C46206C00AD8522;
+					};
+					02EB7DA31C46206C00AD8522 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H598HBDDJ8;
+						TestTargetID = 02EB7D841C46206C00AD8522;
+					};
+				};
+			};
+			buildConfigurationList = 02EB7D801C46206C00AD8522 /* Build configuration list for PBXProject "bobafetch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02EB7D7C1C46206C00AD8522;
+			productRefGroup = 02EB7D861C46206C00AD8522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02EB7D841C46206C00AD8522 /* bobafetch */,
+				02EB7D981C46206C00AD8522 /* bobafetchTests */,
+				02EB7DA31C46206C00AD8522 /* bobafetchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02EB7D831C46206C00AD8522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025DDF4B1CF11EFF00580D67 /* Main.storyboard in Resources */,
+				02EB7D931C46206C00AD8522 /* LaunchScreen.storyboard in Resources */,
+				02EB7D901C46206C00AD8522 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EB7D971C46206C00AD8522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EB7DA21C46206C00AD8522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E97CC8CDDDA6D6A00BBFE3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bobafetch/Pods-bobafetch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE103507BB7988458098168 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bobafetch/Pods-bobafetch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D199533A77AF7775D1D6FEF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02EB7D811C46206C00AD8522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EB7DB71C4735A800AD8522 /* LoginViewController.swift in Sources */,
+				0295B12B1C7F7A6000B31AF3 /* stripeViewController.swift in Sources */,
+				025DDF4F1CF1495E00580D67 /* usageVC.swift in Sources */,
+				02EB7D8B1C46206C00AD8522 /* ViewController.swift in Sources */,
+				028938E41C62A8B400529E9A /* orderViewController.swift in Sources */,
+				0274A9CD1C8FD9E7005AEBBD /* ownerVC.swift in Sources */,
+				025DDF4D1CF13B4500580D67 /* familyVC.swift in Sources */,
+				02EB7DB91C47373A00AD8522 /* signUpViewController.swift in Sources */,
+				02EB7D891C46206C00AD8522 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EB7D951C46206C00AD8522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EB7D9E1C46206C00AD8522 /* bobafetchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EB7DA01C46206C00AD8522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EB7DA91C46206D00AD8522 /* bobafetchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02EB7D9B1C46206C00AD8522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02EB7D841C46206C00AD8522 /* bobafetch */;
+			targetProxy = 02EB7D9A1C46206C00AD8522 /* PBXContainerItemProxy */;
+		};
+		02EB7DA61C46206C00AD8522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02EB7D841C46206C00AD8522 /* bobafetch */;
+			targetProxy = 02EB7DA51C46206C00AD8522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		025DDF491CF11EFF00580D67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025DDF4A1CF11EFF00580D67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02EB7D911C46206C00AD8522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02EB7D921C46206C00AD8522 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02EB7DAB1C46206D00AD8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02EB7DAC1C46206D00AD8522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02EB7DAE1C46206D00AD8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90201A52DEF2F8FA0A19E20C /* Pods-bobafetch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bobafetch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.bobafetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ./bobafetch/bridge.h;
+			};
+			name = Debug;
+		};
+		02EB7DAF1C46206D00AD8522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04583DFAEF3EC6BDB6D01DD3 /* Pods-bobafetch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bobafetch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.bobafetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ./bobafetch/bridge.h;
+			};
+			name = Release;
+		};
+		02EB7DB11C46206D00AD8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bobafetchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.bobafetchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bobafetch.app/bobafetch";
+			};
+			name = Debug;
+		};
+		02EB7DB21C46206D00AD8522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bobafetchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.bobafetchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bobafetch.app/bobafetch";
+			};
+			name = Release;
+		};
+		02EB7DB41C46206D00AD8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bobafetchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.bobafetchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bobafetch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		02EB7DB51C46206D00AD8522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bobafetchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.bobafetchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bobafetch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02EB7D801C46206C00AD8522 /* Build configuration list for PBXProject "bobafetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EB7DAB1C46206D00AD8522 /* Debug */,
+				02EB7DAC1C46206D00AD8522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02EB7DAD1C46206D00AD8522 /* Build configuration list for PBXNativeTarget "bobafetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EB7DAE1C46206D00AD8522 /* Debug */,
+				02EB7DAF1C46206D00AD8522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02EB7DB01C46206D00AD8522 /* Build configuration list for PBXNativeTarget "bobafetchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EB7DB11C46206D00AD8522 /* Debug */,
+				02EB7DB21C46206D00AD8522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02EB7DB31C46206D00AD8522 /* Build configuration list for PBXNativeTarget "bobafetchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EB7DB41C46206D00AD8522 /* Debug */,
+				02EB7DB51C46206D00AD8522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02EB7D7D1C46206C00AD8522 /* Project object */;
+}
