@@ -35,6 +35,9 @@ class signUpViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func things(sender: UIButton) {
+        self.performSegueWithIdentifier("things", sender: self)
+    }
 
     @IBAction func signUpTapped(sender: UIButton) {
         

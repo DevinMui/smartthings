@@ -10,8 +10,9 @@
 		025DDF4B1CF11EFF00580D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025DDF491CF11EFF00580D67 /* Main.storyboard */; };
 		025DDF4D1CF13B4500580D67 /* familyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DDF4C1CF13B4500580D67 /* familyVC.swift */; };
 		025DDF4F1CF1495E00580D67 /* usageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DDF4E1CF1495E00580D67 /* usageVC.swift */; };
+		025DDF511CF150E700580D67 /* joinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DDF501CF150E700580D67 /* joinVC.swift */; };
+		025DDF531CF180A300580D67 /* random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DDF521CF180A300580D67 /* random.swift */; };
 		0274A9CD1C8FD9E7005AEBBD /* ownerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274A9CC1C8FD9E7005AEBBD /* ownerVC.swift */; };
-		028938E41C62A8B400529E9A /* orderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028938E31C62A8B400529E9A /* orderViewController.swift */; };
 		0295B12B1C7F7A6000B31AF3 /* stripeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295B12A1C7F7A6000B31AF3 /* stripeViewController.swift */; };
 		02EB7D891C46206C00AD8522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB7D881C46206C00AD8522 /* AppDelegate.swift */; };
 		02EB7D8B1C46206C00AD8522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB7D8A1C46206C00AD8522 /* ViewController.swift */; };
@@ -45,8 +46,9 @@
 		025DDF4A1CF11EFF00580D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		025DDF4C1CF13B4500580D67 /* familyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = familyVC.swift; sourceTree = "<group>"; };
 		025DDF4E1CF1495E00580D67 /* usageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usageVC.swift; sourceTree = "<group>"; };
+		025DDF501CF150E700580D67 /* joinVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = joinVC.swift; sourceTree = "<group>"; };
+		025DDF521CF180A300580D67 /* random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = random.swift; sourceTree = "<group>"; };
 		0274A9CC1C8FD9E7005AEBBD /* ownerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ownerVC.swift; sourceTree = "<group>"; };
-		028938E31C62A8B400529E9A /* orderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderViewController.swift; sourceTree = "<group>"; };
 		0295B12A1C7F7A6000B31AF3 /* stripeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stripeViewController.swift; sourceTree = "<group>"; };
 		02EB7D851C46206C00AD8522 /* bobafetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bobafetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EB7D881C46206C00AD8522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,11 +124,12 @@
 				02EB7D8A1C46206C00AD8522 /* ViewController.swift */,
 				02EB7DB61C4735A800AD8522 /* LoginViewController.swift */,
 				02EB7DB81C47373A00AD8522 /* signUpViewController.swift */,
-				028938E31C62A8B400529E9A /* orderViewController.swift */,
 				0295B12A1C7F7A6000B31AF3 /* stripeViewController.swift */,
 				025DDF4C1CF13B4500580D67 /* familyVC.swift */,
 				0274A9CC1C8FD9E7005AEBBD /* ownerVC.swift */,
 				025DDF4E1CF1495E00580D67 /* usageVC.swift */,
+				025DDF501CF150E700580D67 /* joinVC.swift */,
+				025DDF521CF180A300580D67 /* random.swift */,
 				025DDF491CF11EFF00580D67 /* Main.storyboard */,
 				02EB7D8F1C46206C00AD8522 /* Assets.xcassets */,
 				02EB7D911C46206C00AD8522 /* LaunchScreen.storyboard */,
@@ -355,14 +358,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025DDF511CF150E700580D67 /* joinVC.swift in Sources */,
 				02EB7DB71C4735A800AD8522 /* LoginViewController.swift in Sources */,
 				0295B12B1C7F7A6000B31AF3 /* stripeViewController.swift in Sources */,
 				025DDF4F1CF1495E00580D67 /* usageVC.swift in Sources */,
 				02EB7D8B1C46206C00AD8522 /* ViewController.swift in Sources */,
-				028938E41C62A8B400529E9A /* orderViewController.swift in Sources */,
 				0274A9CD1C8FD9E7005AEBBD /* ownerVC.swift in Sources */,
 				025DDF4D1CF13B4500580D67 /* familyVC.swift in Sources */,
 				02EB7DB91C47373A00AD8522 /* signUpViewController.swift in Sources */,
+				025DDF531CF180A300580D67 /* random.swift in Sources */,
 				02EB7D891C46206C00AD8522 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,9 +510,10 @@
 			baseConfigurationReference = 90201A52DEF2F8FA0A19E20C /* Pods-bobafetch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bobafetch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.bobafetch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.waterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = ./bobafetch/bridge.h;
 			};
@@ -519,9 +524,10 @@
 			baseConfigurationReference = 04583DFAEF3EC6BDB6D01DD3 /* Pods-bobafetch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bobafetch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.bobafetch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseliang.waterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = ./bobafetch/bridge.h;
 			};

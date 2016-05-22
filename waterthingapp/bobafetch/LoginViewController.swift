@@ -102,6 +102,8 @@ class LoginViewController: UIViewController {
                         let authToken = JSON["auth_token"]
                         let id = JSON["id"]
                         
+                        print(id)
+                        
                         self.emailTxt.userInteractionEnabled = true
                         self.passwordTxt.userInteractionEnabled = true
                         
