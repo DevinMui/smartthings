@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (3.1.5)
+  - ENSwiftSideMenu (0.1)
+  - Stripe (6.1.0):
+    - Stripe/Core (= 6.1.0)
+  - Stripe/Core (6.1.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.1.5)
+  - ENSwiftSideMenu (~> 0.1)
+  - Stripe (from `https://github.com/stripe/stripe-ios`)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  Stripe:
+    :git: https://github.com/stripe/stripe-ios
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Stripe:
+    :commit: 0e0ffc6ad98ad2ea7c40b19eb9575b52cd53b2e6
+    :git: https://github.com/stripe/stripe-ios
+  SwiftyJSON:
+    :commit: 929539eb6a3304eaa9153ca44041a78b85bf2ee5
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  ENSwiftSideMenu: 4e17a97d1d92c1a9c7267993a167e27e0a10422d
+  Stripe: bee87bf3459953211b9a3709fb3b90a90a62b060
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
