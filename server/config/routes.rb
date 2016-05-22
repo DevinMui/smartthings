@@ -5,6 +5,8 @@ Rails.application.routes.draw do
       resources :families
       resources :sessions
       resources :showers
+      resources :motions
+      get 'recognition' => 'users#recognition'
       get 'time_stamp_start' => 'showers#time_stamp_start'
       get 'time_stamp_end' => 'showers#time_stamp_end'
     end
