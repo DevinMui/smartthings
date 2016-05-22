@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (3.1.5)
+  - AWSCore (2.4.2)
+  - AWSS3 (2.4.2):
+    - AWSCore (= 2.4.2)
   - ENSwiftSideMenu (0.1)
   - Stripe (6.1.0):
     - Stripe/Core (= 6.1.0)
@@ -8,6 +11,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 3.1.5)
+  - AWSS3
   - ENSwiftSideMenu (~> 0.1)
   - Stripe (from `https://github.com/stripe/stripe-ios`)
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
@@ -28,6 +32,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  AWSCore: 08cc4318682a518ad73e452900336ba54e823e03
+  AWSS3: 21bbd5d41eb175bf2fd371dc8af5339752f7f5b7
   ENSwiftSideMenu: 4e17a97d1d92c1a9c7267993a167e27e0a10422d
   Stripe: bee87bf3459953211b9a3709fb3b90a90a62b060
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a

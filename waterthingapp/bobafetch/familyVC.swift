@@ -70,7 +70,7 @@ class familyVC: UIViewController {
             
         } else {
             
-            Alamofire.request(.POST, url! + "/api/v1/family", parameters: params, headers: headers, encoding: .JSON)
+            Alamofire.request(.POST, url! + "/api/v1/families", parameters: params, headers: headers, encoding: .JSON)
                 .responseJSON { response in
                     print(response.request)  // original URL request
                     //print(response.response) // URL response

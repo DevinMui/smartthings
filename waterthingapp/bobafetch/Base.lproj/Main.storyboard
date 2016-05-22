@@ -86,32 +86,39 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WT9-Ps-oGu">
-                                <rect key="frame" x="135" y="141" width="144" height="30"/>
+                                <rect key="frame" x="20" y="149" width="184" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Family Creation"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oP4-Zq-7Yt">
-                                <rect key="frame" x="155" y="293" width="104" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Family List"/>
                                 <connections>
-                                    <segue destination="Wrf-JJ-g0c" kind="modal" id="IFS-wO-rUz"/>
+                                    <segue destination="NT6-9v-zM5" kind="push" id="wtL-JN-HuC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iTD-tf-CST">
-                                <rect key="frame" x="155" y="371" width="103" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oP4-Zq-7Yt">
+                                <rect key="frame" x="210" y="231" width="184" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Water Usage"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Family List"/>
                                 <connections>
-                                    <segue destination="WnL-MS-PAn" kind="modal" id="qhu-bR-nvb"/>
+                                    <segue destination="Wrf-JJ-g0c" kind="push" id="5O2-11-OZS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JbJ-cU-NjY">
-                                <rect key="frame" x="166" y="219" width="83" height="30"/>
+                                <rect key="frame" x="210" y="149" width="184" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Join Family"/>
                                 <connections>
                                     <segue destination="H3f-qz-rp3" kind="push" id="aZR-DW-Rn9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iTD-tf-CST">
+                                <rect key="frame" x="20" y="231" width="184" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Water Usage"/>
+                                <connections>
+                                    <segue destination="WnL-MS-PAn" kind="push" id="SgS-YW-p46"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -123,40 +130,26 @@
                         <segue destination="VKO-yg-n39" kind="modal" identifier="go_to_login" id="emZ-M7-seh"/>
                         <segue destination="Wrf-JJ-g0c" kind="modal" identifier="goto_owner" id="PPY-OT-WD7"/>
                         <segue destination="WnL-MS-PAn" kind="modal" id="7lm-oQ-q9X"/>
-                        <segue destination="NT6-9v-zM5" kind="push" id="KN5-ni-dVN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZxR-fE-muA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="166" y="545"/>
         </scene>
-        <!--OwnerVC-->
+        <!--Families-->
         <scene sceneID="xw3-ry-NbT">
             <objects>
                 <tableViewController id="Wrf-JJ-g0c" customClass="ownerVC" customModule="bobafetch" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="178" sectionHeaderHeight="28" sectionFooterHeight="28" id="RBl-iy-27g">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="67" sectionHeaderHeight="28" sectionFooterHeight="28" id="RBl-iy-27g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="xSp-jG-Khz">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <items>
-                                <navigationItem id="vF5-y1-5pN">
-                                    <barButtonItem key="leftBarButtonItem" title="Refresh" id="aey-qo-CgM">
-                                        <connections>
-                                            <action selector="refresh:" destination="Wrf-JJ-g0c" id="vet-3Y-7Kk"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </navigationItem>
-                            </items>
-                        </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="178" id="pVM-JG-l4u">
-                                <rect key="frame" x="0.0" y="72" width="414" height="178"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="67" id="pVM-JG-l4u">
+                                <rect key="frame" x="0.0" y="28" width="414" height="67"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" tableViewCell="pVM-JG-l4u" id="Wae-NK-XnC">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="177"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="66"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -166,10 +159,11 @@
                             <outlet property="delegate" destination="Wrf-JJ-g0c" id="BUG-NU-A0s"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Families" id="bRh-gy-dxq"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n6E-1I-6QS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="166" y="1596"/>
+            <point key="canvasLocation" x="153" y="1600"/>
         </scene>
         <!--loginVC-->
         <scene sceneID="YeW-j8-1e3">
@@ -281,6 +275,14 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0od-xg-sOP">
+                                <rect key="frame" x="184" y="493" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="things:" destination="war-BI-Ghg" eventType="touchUpInside" id="pWM-Cg-51m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -292,11 +294,61 @@
                         <outlet property="passwordTxt" destination="tyO-bL-bkp" id="EsO-wn-shR"/>
                         <outlet property="signUpTapped" destination="JdJ-67-OwI" id="Akv-K0-40B"/>
                         <outlet property="signupLabel" destination="ou9-Mg-VQH" id="CeD-Vp-Out"/>
+                        <segue destination="UgM-x4-gkn" kind="modal" identifier="things" id="qSU-KT-C0V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dsw-gV-rKN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1380" y="1207"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zvO-Th-qvz">
+            <objects>
+                <navigationController id="UgM-x4-gkn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tSA-En-G9y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2cY-Mz-tAA" kind="relationship" relationship="rootViewController" id="Cxi-29-bMH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dM3-z8-p4w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1937" y="1207"/>
+        </scene>
+        <!--Random-->
+        <scene sceneID="D67-8Z-dT2">
+            <objects>
+                <viewController id="2cY-Mz-tAA" customClass="random" customModule="bobafetch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o6I-fs-dUr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Qvz-md-ZjR">
+                                <rect key="frame" x="0.0" y="113" width="414" height="510"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tac-Je-iAU">
+                                <rect key="frame" x="184" y="678" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Retry"/>
+                                <connections>
+                                    <action selector="retry:" destination="2cY-Mz-tAA" eventType="touchUpInside" id="fXs-14-kSC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Upv-Tb-bTU"/>
+                    <connections>
+                        <outlet property="currentImage" destination="Qvz-md-ZjR" id="0ua-Ea-kB6"/>
+                        <segue destination="Pm0-Ng-Iql" kind="push" identifier="things" id="JCX-hf-Kqa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SLw-mT-f85" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2507" y="1207"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LCr-la-tVD">
@@ -341,7 +393,7 @@
         <!--familycreation-->
         <scene sceneID="3k2-md-6LU">
             <objects>
-                <viewController storyboardIdentifier="signupVC" title="familycreation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NT6-9v-zM5" customClass="familyVC" customModule="bobafetch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="familyVC" title="familycreation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NT6-9v-zM5" customClass="familyVC" customModule="bobafetch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uha-io-ZhA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,12 +403,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="family name" textAlignment="natural" minimumFontSize="17" id="rQA-Oq-Hol">
-                                <rect key="frame" x="77" y="204" width="256" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="UYc-CP-dpN">
                                 <rect key="frame" x="197" y="358" width="20" height="20"/>
@@ -377,6 +423,12 @@
                                     <action selector="signUpTapped:" destination="NT6-9v-zM5" eventType="touchUpInside" id="dnW-lo-d6f"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="family name" textAlignment="natural" minimumFontSize="17" id="rQA-Oq-Hol">
+                                <rect key="frame" x="79" y="219" width="256" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -405,13 +457,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
-                                <navigationItem id="KEC-gM-2WJ">
-                                    <barButtonItem key="leftBarButtonItem" title="Refresh" id="gO2-5D-2xQ">
-                                        <connections>
-                                            <action selector="refreshBUtton:" destination="WnL-MS-PAn" id="yKL-ox-AbA"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </navigationItem>
+                                <navigationItem id="KEC-gM-2WJ"/>
                             </items>
                         </navigationBar>
                         <prototypes>
@@ -429,39 +475,26 @@
                             <outlet property="delegate" destination="WnL-MS-PAn" id="qyQ-OB-fO4"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="kFf-Tg-b8e"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="auR-Ch-Cs1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="670" y="1596"/>
+            <point key="canvasLocation" x="671" y="1566"/>
         </scene>
-        <!--UsageVC-->
+        <!--JoinVC-->
         <scene sceneID="Mz2-69-5Sf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Aje-nx-RDR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="H3f-qz-rp3" customClass="usageVC" customModule="bobafetch" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="126" sectionHeaderHeight="28" sectionFooterHeight="28" id="PWU-9I-Ftk">
+                <tableViewController id="H3f-qz-rp3" customClass="joinVC" customModule="bobafetch" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="PWU-9I-Ftk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="9QA-gK-KQh">
-                            <rect key="frame" x="0.0" y="64" width="414" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <items>
-                                <navigationItem id="3ss-jf-9pq">
-                                    <barButtonItem key="leftBarButtonItem" title="Refresh" id="Idq-OZ-i3C">
-                                        <connections>
-                                            <action selector="refreshBUtton:" destination="H3f-qz-rp3" id="Buk-Do-k1f"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </navigationItem>
-                            </items>
-                        </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="126" id="DFg-Lj-c97">
-                                <rect key="frame" x="0.0" y="136" width="414" height="126"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="DFg-Lj-c97">
+                                <rect key="frame" x="0.0" y="92" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" tableViewCell="DFg-Lj-c97" id="G9x-PF-XNH">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="79"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -473,13 +506,15 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="iP3-tI-clS"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aje-nx-RDR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="722" y="-343"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qhu-bR-nvb"/>
-        <segue reference="IFS-wO-rUz"/>
+        <segue reference="hIf-vV-MqC"/>
+        <segue reference="7lm-oQ-q9X"/>
         <segue reference="qE9-rQ-1NH"/>
+        <segue reference="PPY-OT-WD7"/>
     </inferredMetricsTieBreakers>
 </document>
