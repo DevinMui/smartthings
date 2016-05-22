@@ -13,6 +13,13 @@ while True:
 		# send data to places
 
 		with open("filename.jpg", "rb") as image_file:
+			'''
+
+			# if no work
+			files = {'file': open('filename.jpg', 'rb')}
+			b = requests.post("https://182b90b9.ngrok.io", files=files)
+			str = b.text
+			'''
 			encoded_string = base64.b64encode(image_file.read())
 			headers = { "Content-Type": "application/json", "Accept": "application/json", "app_id": "de429518", "app_key": "f59ab30567145d21d5a878298409b270"}
 			r = requests.post("https://api.kairos.com/recognize", {'image': encoded_string, 'gallery_name': 'gallery'})

@@ -12,7 +12,7 @@ module Api
 				render json: @showers, status: 200
 			end
 			def time_stamp_start
-				@shower = Shower.create(user_id: params[:user_id], time_start: Time.now)
+				@shower = Shower.create(location: params[:location], user_id: params[:user_id], time_start: Time.now)
 				render json: @shower, status: 200
 			end
 
